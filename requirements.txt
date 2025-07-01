@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+eth-account
+mnemonic
+termcolor
+bip-utils
+aiohttp
+# Optional libraries - add them only if you want their specific functionality
+# If you don't install these, the script will skip the related chain checks and issue warnings.
+bitcoinlib
+solana
+tronpy
