@@ -1,12 +1,17 @@
-# Multi-Chain Wallet Balance Scanner (Custom Word Permutations)
-
-## Overview
+Multi-Chain Wallet Balance Scanner (Custom Word Permutations)
+Overview
 This Python script is designed to generate mnemonic phrases from a custom word pool, derive cryptocurrency addresses across multiple chains (Ethereum, Bitcoin, Solana, Tron, Polygon, BNB Smart Chain), and then check for existing balances or transaction history on those addresses.
-* **Finding a wallet with a balance using this method is practically impossible due to the astronomical number of combinations.** This script is intended purely for educational purposes and to demonstrate the process of mnemonic derivation and balance checking, not for finding "rich" wallets.
-* **Web scraping is used for Ethereum/EVM balance checks (via Etherscan-like explorers).** This method is highly unreliable, prone to breaking due to website HTML changes, and may lead to your IP address being temporarily blocked by explorers due to rate limiting. Use with caution.
-* Bitcoin (BTC) balances are checked via Blockstream.info API.
-* Solana (SOL) balances are checked via Solana RPC API.
-* Tron (TRX) and TRC-20 token balances are checked via Tronscan API.
+
+This script is created to find wallets with a balance, including those wallets where the transferred balance might be considered lost. This script is intended purely for educational purposes and to demonstrate the process of mnemonic derivation and balance checking.
+
+Web scraping is used for Ethereum/EVM balance checks (via Etherscan-like explorers). This method is highly unreliable, prone to breaking due to website HTML changes, and may lead to your IP address being temporarily blocked by explorers due to rate limiting. Use with caution.
+
+Bitcoin (BTC) balances are checked via Blockstream.info API.
+
+Solana (SOL) balances are checked via Solana RPC API.
+
+Tron (TRX) and TRC-20 token balances are checked via Tronscan API
+
 
 ## 🙏 Donations (Optional)
 
